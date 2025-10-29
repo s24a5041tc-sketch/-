@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おすすめのラーメン屋さん</title>
+  <style>
+    body {
+      font-family: "Hiragino Sans", "Meiryo", sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    header {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      font-size: 15px;
+      margin-top: 8px;
+    }
+
+    main {
+      padding: 30px 10px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .shop {
+      background-color: #fff;
+      border-left: 5px solid #d32f2f;
+      border-radius: 5px;
+      padding: 15px 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .shop h2 {
+      margin-top: 0;
+      color: #d32f2f;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🍜 おすすめのラーメン屋さん</h1>
+    <p>私が実際に行って美味しかったお店を紹介します！</p>
+  </header>
+
+  <main>
+    <div class="shop">
+      <h2> 一風堂 </h2>
+      <p>魚介と豚骨を合わせた濃厚スープが特徴。<br>
+      細麺との相性が抜群で、食べ応えのある一杯です。</p>
+    </div>
+
+    <div class="shop">
+      <h2> 一蘭 </h2>
+      <p>とんこつラーメンの王道。<br>
+      味の濃さや辛さを自分で選べるカスタマイズ制が人気です。</p>
+    </div>
+
+    <div class="shop">
+      <h2> なりたけ </h2>
+      <p>野菜たっぷり、ニンニク強めのがっつり系。<br>
+      大盛り好きにはたまらないボリュームです！</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 My Ramen Guide</p>
+  </footer>
+</body>
+</html>
